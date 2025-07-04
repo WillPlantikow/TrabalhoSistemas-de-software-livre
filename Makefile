@@ -1,10 +1,3 @@
-  GNU nano 8.5                        Makefile                        Modified
-
-
-  GNU nano 8.5                        Makefile                        Modified
-
-
-
 CXX = g++
 CXXFLAGS = -Wall -Wextra
 
