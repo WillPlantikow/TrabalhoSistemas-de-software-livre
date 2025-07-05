@@ -33,22 +33,16 @@ Para compilar todos os programas executáveis (`primo`, `vetor`, `matriz`), util
 Para visualizar o numero gerado para o teste:  
 ./generate-test-primo.sh  
 
-Para visualizar o resultado  
-./primo < test-primo.in  
+# Vetor: 
+Para visualizar as Matrizes geradas para o teste:  
+./generate-test-vetor.sh   
 
 # Matriz: 
 Para visualizar as Matrizes geradas para o teste:  
 ./generate-test-matriz.sh   
 
-Para visualizar o resultado  
+Para visualizar o resultado do teste matriz
 ./matriz < test-matriz.in  
-
-# Vetor: 
-Para visualizar as Matrizes geradas para o teste:  
-./generate-test-vetor.sh   
-
-Para visualizar o resultado  
-./vetor < test-vetor.in  
 
 
 
