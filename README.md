@@ -6,14 +6,14 @@
 Necessario: Compilador em C++ e Bash (Recomendavel: Msys2)
 
 #Estrutura:
-├── primo.cpp
-├── vetor.cpp
-├── matriz.cpp
-├── Makefile
-├── generate-test-primo.sh
-├── generate-test-vetor.sh
-├── generate-test-matriz.sh
-├── README.md
+├── primo.cpp  
+├── vetor.cpp  
+├── matriz.cpp  
+├── Makefile  
+├── generate-test-primo.sh  
+├── generate-test-vetor.sh  
+├── generate-test-matriz.sh  
+├── README.md  
 
 O repositório contém os seguintes arquivos principais:
 * `primo.cpp`: Programa C++ para verificar se um número é primo.
