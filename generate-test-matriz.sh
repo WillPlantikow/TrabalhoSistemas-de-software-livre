@@ -1,33 +1,17 @@
 #!/bin/bash
-N=$(( RANDOM % 4 + 2 ))
-
-echo $N > test-matriz.in
-
-echo "Gerado test-matriz.in com matrizes ${N}x${N}."
-echo "Matriz 1:"
-
+N=$(( RANDOM % 15 + 1 ))
+echo $N > test-vetor.in
+echo "Gerado test-vetor.in com tamanho $N."
+echo "Elementos gerados:"
+MAIOR_ESPERADO=-2147483648
 for (( i=0; i<N; i++ )); do
-    for (( j=0; j<N; j++ )); do
-        ELEMENT=$(( RANDOM % 10 ))
-        echo -n "$ELEMENT " >> test-matriz.in
-        echo -n "$ELEMENT "
-    done	
-    echo "Matriz 2:"
-
-	
-for (( i=0; i<N; i++ )); do
-    for (( j=0; j<N; j++ )); do
-        ELEMENT=$(( RANDOM % 10 ))
-        echo -n "$ELEMENT " >> test-matriz.in
-        echo -n "$ELEMENT "
-    done
-    echo "" >> test-matriz.in
-    echo ""
+    ELEMENT=$(( RANDOM % 1001 ))
+    echo $ELEMENT >> test-vetor.in
+    echo -n "$ELEMENT "
+    if (( ELEMENT > MAIOR_ESPERADO )); then
+        MAIOR_ESPERADO=$ELEMENT
+    fi
 done
-
-OPERATIONS=("a" "s" "m")
-OP_INDEX=$(( RANDOM % 3 ))
-SELECTED_OP="${OPERATIONS[$OP_INDEX]}"
-
-echo "$SELECTED_OP" >> test-matriz.in
-echo "Operação selecionada: $SELECTED_OP"
+echo ""
+echo "$MAIOR_ESPERADO" > test-vetor.out
+echo "test-vetor.out: $MAIOR_ESPERADO"
