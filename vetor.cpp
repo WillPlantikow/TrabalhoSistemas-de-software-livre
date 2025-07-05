@@ -6,13 +6,11 @@ using namespace std;
 int main() {
     int n;
 
-    cout << "Quantos numeros voce deseja inserir no vetor? ";
     cin >> n;
 
     vector<int> vetor(n);
 
     for (int i = 0; i < n; ++i) {
-        cout << "Digite o " << i + 1 << "o numero: ";
         cin >> vetor[i];
     }
 
