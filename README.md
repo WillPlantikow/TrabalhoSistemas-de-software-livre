@@ -5,7 +5,7 @@
   Dentro do projeto contem os 3 programas, cada um com scripts em Bash que geram testes automaticamente e um Make file automatizar a compilação.
 Necessario: Compilador em C++ e Bash (Recomendavel: Msys2)
 
-#Estrutura:
+# Estrutura:  
 ├── primo.cpp  
 ├── vetor.cpp  
 ├── matriz.cpp  
@@ -29,25 +29,25 @@ O repositório contém os seguintes arquivos principais:
 # Como Compilar e Executar
 Para compilar todos os programas executáveis (`primo`, `vetor`, `matriz`), utilize o comando:
 
-#Primo: (Caso de algum erro, utilize o "#chmod +x generate-test..."
-Para visualizar o numero gerado para o teste:
-./generate-test-primo.sh
+# Primo: (Caso de algum erro, utilize o "#chmod +x generate-test..."
+Para visualizar o numero gerado para o teste:  
+./generate-test-primo.sh  
 
-#Matriz: 
-Para visualizar as Matrizes geradas para o teste:
-./generate-test-matriz.sh
-cat test-primo.in
+# Matriz: 
+Para visualizar as Matrizes geradas para o teste:  
+./generate-test-matriz.sh  
+cat test-primo.in  
 
-Para visualizar o resultado
-./primo < test-primo.in
+Para visualizar o resultado  
+./primo < test-primo.in  
 
-#Vetor: 
-Para visualizar as Matrizes geradas para o teste:
-./generate-test-vetor.sh
-cat test-vetor.in
+# Vetor: 
+Para visualizar as Matrizes geradas para o teste:  
+./generate-test-vetor.sh  
+cat test-vetor.in  
 
-Para visualizar o resultado
-./primo < test-vetor.in
+Para visualizar o resultado  
+./primo < test-vetor.in  
 
 
 
