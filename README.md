@@ -33,21 +33,22 @@ Para compilar todos os programas executáveis (`primo`, `vetor`, `matriz`), util
 Para visualizar o numero gerado para o teste:  
 ./generate-test-primo.sh  
 
-# Matriz: 
-Para visualizar as Matrizes geradas para o teste:  
-./generate-test-matriz.sh  
-cat test-primo.in  
-
 Para visualizar o resultado  
 ./primo < test-primo.in  
 
-# Vetor: 
+# Matriz: 
 Para visualizar as Matrizes geradas para o teste:  
-./generate-test-vetor.sh  
-cat test-vetor.in  
+./generate-test-matriz.sh   
 
 Para visualizar o resultado  
-./primo < test-vetor.in  
+./matriz < test-matriz.in  
+
+# Vetor: 
+Para visualizar as Matrizes geradas para o teste:  
+./generate-test-vetor.sh   
+
+Para visualizar o resultado  
+./vetor < test-vetor.in  
 
 
 
