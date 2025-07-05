@@ -70,10 +70,7 @@ int main() {
     int n;
     cin >> n; 
 
-    
     vector<vector<int>> matrizA = lerMatriz(n);
-
-    
     vector<vector<int>> matrizB = lerMatriz(n);
 
     char operacao;
@@ -87,8 +84,17 @@ int main() {
         resultado = subtrairMatrizes(matrizA, matrizB, n);
     } else if (operacao == 'm') {
         resultado = multiplicarMatrizes(matrizA, matrizB, n);
+    } else {
+        return 1;
     }
 
+    cout << "Matriz A:" << endl;
+    imprimirMatriz(matrizA);
+
+    cout << "Matriz B:" << endl;
+    imprimirMatriz(matrizB);
+
+    cout << "Matriz Resultante:" << endl;
     imprimirMatriz(resultado);
 
     return 0;
