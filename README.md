@@ -26,10 +26,10 @@ O repositório contém os seguintes arquivos principais:
 * `README.md`: Este arquivo, com informações sobre o projeto.
 * `test-primo.in`, `test-primo.out`, `test-vetor.in`, `test-vetor.out`, `test-matriz.in`: Arquivos de exemplo gerados pelos scripts.
 
-# Como Compilar e Executar
+# Como Compilar e Executar (Caso de algum erro, utilize o "#chmod +x generate-test...)
 Para compilar todos os programas executáveis (`primo`, `vetor`, `matriz`), utilize o comando:
 
-# Primo: (Caso de algum erro, utilize o "#chmod +x generate-test..."
+# Primo: 
 Para visualizar o numero gerado para o teste:  
 ./generate-test-primo.sh  
 
