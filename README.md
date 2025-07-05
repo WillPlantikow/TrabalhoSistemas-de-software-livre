@@ -1,6 +1,6 @@
-#Willian Plantikow de Oliveira
+# Willian Plantikow de Oliveira
 
-#Testes para Programas em c++ (Primo, Matrizes, Vetor)
+# Testes para Programas em c++ (Primo, Matrizes, Vetor)
 
   Dentro do projeto contem os 3 programas, cada um com scripts em Bash que geram testes automaticamente e um Make file automatizar a compilação.
 Necessario: Compilador em C++ e Bash (Recomendavel: Msys2)
