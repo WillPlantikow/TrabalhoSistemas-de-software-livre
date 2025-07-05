@@ -17,4 +17,4 @@ else
     EXPECTED_OUTPUT="$IS_PRIME"
 fi
 echo "$EXPECTED_OUTPUT" > test-primo.out
-echo "Saída esperada salva em test-primo.out: $EXPECTED_OUTPUT"
+echo "test-primo.out: $EXPECTED_OUTPUT"
